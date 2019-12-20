@@ -27,14 +27,16 @@ THE FOLLOWING STEPS WILL HELP SET UP THE PROJECT.
 (g) At the Product's endpoint, provide your system generated "CategoryCode" and create products under each category created. On completion of 
     this, a "ProductCode" is generated for each product as created under a category.
     
-(h) Now you can visit the "AddProductToUserCart Endpoint" with your "ProductCode" and "UserId"  to add products to users/customers cart. 
-    On successfully adding a products to customers/users cart, a mail notification is sent to the users/customers notifying them about details of the products they added to their carts.
+(h) Now you can visit the "AddProductToUserCart Endpoint" with your "ProductCode" and "UserId"  to add products to               users/customers cart. 
+    On successfully adding a products to customers/users cart, a mail notification is sent to the users/customers notifying     them about details of the products they added to their carts.
     
-(i) Just as customers/users are able to add products, you can head over to the "RemoveFromUsersCart Endpoint" to remove products from users cart and a mail notification as well will be sent to 
+(i) Just as customers/users are able to add products, you can head over to the "RemoveFromUsersCart Endpoint" to remove         products from users cart and a mail notification as well will be sent to 
     the users notifying them of the removal as well.
     
-(j) 
-    
-    This application is also hosted on "HEROKU PLATFORM" and can be access through this url:
-    https://byteworkstest-api.herokuapp.com/swagger-ui.html#/
+(j) Also, products can be fetched using "ProductsId" and users can increase or reduce the quantity of products as the           desire.
 
+(k) Products can be updated using product's Id and products can equally be fetched through categories.
+    
+   This application will be hosted on line hopefully when an abit chance to upload it and the url will be made available as    well as the test cases. Thank you.
+   I can be contacted for any additional information required via idongesitukut25@gmail.com
+   
