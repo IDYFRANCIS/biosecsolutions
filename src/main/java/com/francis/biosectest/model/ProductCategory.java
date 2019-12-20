@@ -14,8 +14,6 @@ import javax.persistence.Table;
 
 import org.hibernate.annotations.GenericGenerator;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 @SuppressWarnings("serial")
 @Entity
 @Table(name = "category")

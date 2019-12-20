@@ -8,8 +8,6 @@ import org.springframework.context.annotation.Configuration;
 
 import com.francis.biosectest.constants.AppConstants;
 
-//import com.bizzdesk.inventory.constant.AppConstants;
-
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;

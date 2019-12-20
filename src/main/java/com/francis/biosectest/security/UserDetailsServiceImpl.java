@@ -20,11 +20,6 @@ import com.francis.biosectest.model.Role;
 import com.francis.biosectest.model.Users;
 import com.francis.biosectest.service.UsersService;
 
-//import com.bizzdesk.inventory.model.Privilege;
-//import com.bizzdesk.inventory.model.Role;
-//import com.bizzdesk.inventory.model.Users;
-//import com.bizzdesk.inventory.service.UsersService;
-
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
