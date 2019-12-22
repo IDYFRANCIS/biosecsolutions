@@ -8,9 +8,10 @@ THE FOLLOWING STEPS WILL HELP SET UP THE PROJECT.
 (a) After successfully clonning the project, run the code to initialize the application.
 
 (b) Once the code is running, you can access the swagger documentation at "http://localhost:8080/swagger-ui.html#/"
+    NOTE: The database name for the system is "eCommerce".
 
 (c) To register as a user on the system, use the "USER REGISTERATION" endpoint on the swagger documentation and fill all the 
-    required fields.
+    required fields. NOTE: There are three roles on the system and these roles are attached to different privileges. The         roles are: (a)"USER", (b)"STORE_OFFICER", (c)"ADMIN". The SUPER_ADMIN is created once the system lunches.
     
 (d) On successful registeration, an email is sent to the user with an "Activation code" generated from from the system.
     Copy this activation code and head over to the verification endpoint and paste the activation code as well as provide your
